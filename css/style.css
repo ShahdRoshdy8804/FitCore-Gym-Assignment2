@@ -1,0 +1,527 @@
+body{
+    margin : 0;
+    font-family: "Inter", sans-serif;
+}
+
+.header{
+    width: 80%;
+    height: 600px;
+    background-color: #f8f9fa;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.header-content{
+   width: 50%;
+   height: 50%;
+   padding: 15px;
+   float: left;
+   margin-top: 80px;
+}
+.header-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    float: right;
+}
+.header-img{
+    width: 40%;
+    height: 400px;
+    padding: 20px;
+    float: right;
+    margin-top: 50px;
+}
+
+.header-tit{
+    font-size: 70px;
+    font-weight:800;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.header-p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #6c757d;
+    text-align: left;
+}
+
+.header-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.header-btn1{
+    background-color: #000;
+    color: #fff;
+}
+
+.header-btn2{
+    background-color:transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/* ----------------section 2---------------- */
+
+.section2{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sec2-cards{
+    margin-top: 100px;
+}
+.sec2-card{
+    width: 25%;
+    height: 300px;
+    display: inline-block;
+    margin: 10px 1%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.card-icon{
+    width: 70px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 12px 0 0 0 ;
+}
+.icon-shape{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin:auto;
+}
+.card-icon1{
+    background-color: #155dfc;
+}
+.shape1{
+    border-radius: 10px;
+}
+.card-icon2{
+    background-color: #08a045;
+}
+.shape2{
+    border-radius: 20px;
+}
+.card-icon3{
+    background-color: #9810fa;
+}
+.shape3{
+    border-radius: 5px;
+}
+.card-icon img{
+    width: 45px;
+    height: 45px;
+    margin: 20px auto;
+}
+.sec2-tit{
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.sec2-sub-tit{
+    font-size: 20px;
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.sec2-card1{
+    background-color: #dbeafe;
+}
+.sec2-card2{
+    background-color: #d0fae5;
+}
+.sec2-card3{
+    background-color: #f3e8ff;
+    margin-bottom: 200px;
+}
+.card-tit{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.card-p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+/* ----------------section 3---------------- */
+
+.section3{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.sec3-img{
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    float: left;
+    margin-top: 50px;
+}
+.sec3-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.sec3-content{
+    width: 40%;
+    height: 500px;
+    padding: 20px;
+    float: right;
+    /* margin-top: 50px; */
+}
+.sec3-tit{
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+}
+.sec3-item {
+    border-left: 4px solid #000; 
+    padding-left: 15px;            
+    margin-bottom: 30px;           
+    text-align: left;            
+    margin-top: 40px;
+    width: 100%;
+    height: 105px;
+    
+}
+.sec3-item-tit{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 10px;
+}
+.sec3-item-p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #6c757d;
+}
+/* ---------section 4--------------- */
+
+.section4{
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+.sec4-tit{
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+}
+.sec-sub-tit{
+    font-size: 20px;
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.sec4-cards{
+    margin: auto;
+    width: 80%;
+    height: 500px;
+}
+.sec4-content{
+    width: 25%;
+    height: 230px;
+    display: inline-block;
+    margin: 20px 1%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.sec4-card1{
+    background-color:#dbeafe ;
+}
+.sec4-card2{
+    background-color: #d0fae5;
+}
+.sec4-card3{
+    background-color: #f3e8ff;
+}
+.member-info{
+    margin: auto;
+}
+.sec4-img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.sec4-img img{
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 15px;
+}
+.member-name{
+    float:right;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+.member-opinion{
+    float: inline-start;
+}
+.mem-name{
+    font: 15px ;
+    color: #000;
+}
+.mem-description{
+    font: 15px;
+    color: #6c757d;
+}
+.member-opinion{
+    font:20px;
+    color: #6c757d;
+}
+.gym-rates{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    background-color: #f4f4f8;
+    margin-top: -30px;
+    border-radius: 20px;
+    border: 1px solid #d8d5db;
+}
+.rates-content{
+    display: inline-block;
+    padding: 30px 60px;
+}
+.rate-num{
+    font-size: 35px ;
+    font-weight: 800;
+    color: #000;
+     margin-bottom: 10px;
+}
+.rate-type{
+    font-size: 20px;
+    color: #6c757d;
+   
+}
+/* -------------------form section-------------------------- */
+
+.form-container{
+    text-align: center;
+     margin-top: 150px;
+}
+.form-tit{
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+}
+.form-sub-tit{
+    font-size: 20px;
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.form-content{
+    width: 55%;
+    height: auto;
+    background-color: #f8f9fa;
+    margin: auto;
+    border-radius: 20px;
+    padding:50px 30px ;
+    text-align: left;
+}
+label{
+    display: block;
+    font: 20px;
+    font-weight:600;
+    color: #000;
+    margin-bottom: 8px;
+}
+input{
+    background-color: transparent;
+    border: 1px solid #d8d5db;
+}
+.first-sec-name {
+    width: 100%;
+    overflow: hidden; 
+    margin-bottom: 25px;
+}
+.fir-name {
+    width: 48%;
+    float: left;
+}
+.la-name {
+    width: 48%;
+    float: right;
+    margin-left: 0;   
+}
+#last-name, #first-name {
+    width: 100%;      
+    height: 45px;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box; 
+}
+.email , .phone , .membership ,.goal{
+    margin-bottom: 10px;
+}
+#email{
+    width:90%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#phone{
+    width:90%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#membership{
+    width:91%;
+    height: 45px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #d8d5db;
+    background-color: transparent;
+}
+#goal{
+    width:90%;
+    height: 50px;
+    padding:10px 5px;
+    border:1px solid #d8d5db ;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.sub-btn{
+    width: 90%;
+    text-align: center;
+    margin: 25px 0;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.agree-terms{
+    text-align: center;
+    font-size:15px;
+    color: #6c757d;
+}
+/* ------------------footer-------------------- */
+.footer-sec{
+    background-color: #101828;
+    color: white;
+    height: auto;
+    padding: 60px 0;
+    margin-top: 170px;
+}
+.footer-content{
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+.footer-content a{
+    text-decoration: none;
+}
+.left-div{
+    width: 38%;
+    margin-right: 4%;  
+}
+.quick-links{
+    width: 25%;
+    margin-right: 4%;
+}
+.contact{
+    width: 26%;
+}
+.left-div , .quick-links , .contact{
+    display: inline-block;
+    vertical-align: top;
+}
+.gym-name , .quick-tit  ,.contact-tit{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer-prag{
+    font: 25px;
+    font-weight: 500;
+    color: #6c757d;
+}
+.left-div a{
+    font: 25px;
+    font-weight: 500;
+   color: #6c757d;
+    margin-right: 15px;
+}
+.quick-links ul{
+    list-style: none;
+}
+.quick-links li{
+    margin-bottom: 10px;
+}
+.quick-links ul  a {
+    font: 25px;
+    font-weight: 500;
+    color: #6c757d;
+}
+.info{
+    font: 15px;
+    font-weight: 500;
+    margin-bottom: auto;
+}
+.detail{
+    font: 15px;
+    font-weight: 500;
+    margin-bottom: auto;
+    color: #6c757d;
+}
+.line{
+    border-bottom: 1px solid #6c757d;;
+    margin: 25px 0px;
+}
+.rights{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.rights-links{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.footer-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.rights-links a {
+    font: 25px;
+    font-weight: 500;
+    color: #6c757d;
+    margin: 20px;
+}
